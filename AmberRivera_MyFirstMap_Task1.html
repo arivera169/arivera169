@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head><link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css">
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+    <title> GEOG 485L/585 -- My First Map </title>
+</head>
+<body>
+<p> 
+    My first map will appear here:
+</p>
+<div id="mapId" style="height:400px; width: 600px"></div>
+<script>
+// Bandelier Hall East lat/long: 35.0843° N, 106.6241° W
+//create a map variable " maymap" that points to the map placed in the mapId,<div>
+//zoom the view on the Bandelier Hall East building at a 17 zoom level
+var mymap = L.map('mapId').setView([35.0843,-106.6241]), 17);
+
+</script>
+</body>
+</html>
